@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: roboto, san-serif;
+}
+.content{
+    /* border:1px solid red; */
+    width:70%;
+    margin: auto;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    color:#f9faf8;
+    align-items: center;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.top, .footer, .main{
+    background-color: #1f2937;
+}
+.logo p{
+    font-size: 24px;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    height: 60vh;
+    gap:20px;
+    background-color: #1f2937;
+
+}
+h1{
+    font-size: 42px;
+    color:#f9faf8;
+}
+.info p{
+    color: #e5e7eb;
+    font: 18px bold #e5e7eb;
+    /* font-weight: bold; */
+}
+.info button{
+    background-color: #3882f6;
+    padding:15px 35px;
+    border:none;
+    border-radius: 5px;
+    color:#e5e7eb;
+}
+.img img{
+    max-width:400px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.img{
+    padding:0;
+    margin:0;
+}
+
+/* Styling gallery */
+.gallery{
+    /* height: 50vh; */
+    padding: 30px;
+}
+.gallery >.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.image_disply{
+    display:flex;
+    gap:50px;
+}
+.gallery h2{
+    font-size:36px;
+    color:#1f2937;
+}
+.gallery .image_disply .imgs{
+    /* border:5px solid #3882f6;  */
+    justify-content:center;
+    color:#3882f6;
+}
+.imgs img{
+    width:100px;
+}
+
+
+.quote{
+    background-color:#e5e7eb;
+    padding: 30px;
+}
+.quote >.content{
+    width:50%;
+    flex-direction:column;
+}
+.quote p.saying{
+    font-size:36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1f2937;
+    margin-bottom:0;
+}
+.author{
+    font-weight: light;
+    font-style: italic;
+    color:#1f2937;
+    text-align: right;
+}
+
+/* newsletter signup styling */
+.newsletter{
+    padding:40px;
+}
+.modal{
+    width:100%;
+    background-color:#3882f6;
+    margin:0 auto;
+    padding:30px;
+    border:none;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.modal h3, .modal p{
+    margin:0;    
+}
+button{
+    padding:10px 35px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+
+/* Footer styling */
+.footer >.content{
+    justify-content: center;
+    align-items: center;
+}
